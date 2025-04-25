@@ -106,7 +106,7 @@ npm run dev
 ```
 
 API will be available at:  
-👉 `http://localhost:3000/api/v1`
+👉 `http://localhost:3000/api`
 
 ---
 
@@ -118,7 +118,7 @@ API will be available at:
 Authorization: Bearer <your_jwt_token>
 ```
 
-### 🔐 Authentication - `/api/v1/auth`
+### 🔐 Authentication - `/api/auth`
 
 | Method | Endpoint                    | Description                         |
 |--------|-----------------------------|-------------------------------------|
@@ -133,7 +133,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-### 👤 Users - `/api/v1/users`
+### 👤 Users - `/api/users`
 
 | Method | Endpoint              | Description                         |
 |--------|-----------------------|-------------------------------------|
@@ -148,7 +148,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-### 🍽️ Restaurants - `/api/v1/restaurant`
+### 🍽️ Restaurants - `/api/restaurant`
 
 | Method | Endpoint              | Description                         |
 |--------|-----------------------|-------------------------------------|
@@ -159,7 +159,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-### 📂 Categories - `/api/v1/category`
+### 📂 Categories - `/api/category`
 
 | Method | Endpoint              | Description                         |
 |--------|-----------------------|-------------------------------------|
@@ -171,7 +171,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-### 🍕 Foods - `/api/v1/food`
+### 🍕 Foods - `/api/food`
 
 | Method | Endpoint              | Description                         |
 |--------|-----------------------|-------------------------------------|
@@ -184,7 +184,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-### 📦 Orders - `/api/v1/order`
+### 📦 Orders - `/api/order`
 
 | Method | Endpoint              | Description                         |
 |--------|-----------------------|-------------------------------------|
