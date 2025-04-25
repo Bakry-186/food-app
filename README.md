@@ -87,11 +87,8 @@ Built with **Node.js**, **Express**, and **MongoDB**.
    SECRET_ACCESS_TOKEN=your_access_token_secret
    SECRET_REFRESH_TOKEN=your_refresh_token_secret
    NODE_CODE_SENDING_EMAIL_ADDRESS=your_email@example.com
-   NODE_CODE_SENDING_EMAIL_PASSWORD=your_email_password
+   NODE_CODE_SENDING_EMAIL_PASSWORD=your_app_password
    HMAC_VERIFICATION_CODE_SECRET=your_hmac_secret
-   ```
-
-> 🔐 **Important**: Do not commit your actual `.env` file to version control. Use `.env.example` as a reference.
 
 ---
 
